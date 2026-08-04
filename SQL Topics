@@ -1,0 +1,308 @@
+1. SQL Basics
+Introduction to SQL Server
+SQL Server Architecture
+Database
+Schema
+Tables
+Views
+Synonyms
+Data Types
+Variables
+Comments
+2. SQL Commands
+DDL (CREATE, ALTER, DROP, TRUNCATE)
+DML (SELECT, INSERT, UPDATE, DELETE, MERGE)
+DCL (GRANT, REVOKE, DENY)
+TCL (BEGIN TRANSACTION, COMMIT, ROLLBACK, SAVEPOINT)
+3. Constraints
+Primary Key
+Foreign Key
+Unique Key
+Check Constraint
+Default Constraint
+Identity
+Composite Key
+Alternate Key
+4. SQL Operators
+Arithmetic Operators
+Comparison Operators
+Logical Operators
+BETWEEN
+IN
+LIKE
+EXISTS
+ANY
+ALL
+IS NULL
+IS NOT NULL
+5. SELECT Query
+SELECT
+DISTINCT
+TOP
+ORDER BY
+OFFSET FETCH
+WHERE
+GROUP BY
+HAVING
+CASE
+Alias
+6. Joins
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+FULL OUTER JOIN
+CROSS JOIN
+SELF JOIN
+NATURAL JOIN (Concept)
+7. SQL Functions
+Aggregate
+COUNT()
+SUM()
+AVG()
+MIN()
+MAX()
+String
+LEN()
+LEFT()
+RIGHT()
+SUBSTRING()
+REPLACE()
+STUFF()
+CHARINDEX()
+PATINDEX()
+CONCAT()
+CONCAT_WS()
+FORMAT()
+UPPER()
+LOWER()
+TRIM()
+LTRIM()
+RTRIM()
+REVERSE()
+STRING_SPLIT()
+STRING_AGG()
+Date & Time
+GETDATE()
+SYSDATETIME()
+GETUTCDATE()
+DATEADD()
+DATEDIFF()
+DATEDIFF_BIG()
+DATEPART()
+DATENAME()
+EOMONTH()
+DATEFROMPARTS()
+TIMEFROMPARTS()
+Mathematical
+ABS()
+CEILING()
+FLOOR()
+ROUND()
+POWER()
+SQRT()
+RAND()
+PI()
+SIGN()
+Conversion
+CAST()
+CONVERT()
+PARSE()
+TRY_CAST()
+TRY_CONVERT()
+TRY_PARSE()
+Null Handling
+ISNULL()
+COALESCE()
+NULLIF()
+System Functions
+NEWID()
+NEWSEQUENTIALID()
+@@IDENTITY
+SCOPE_IDENTITY()
+IDENT_CURRENT()
+@@ROWCOUNT
+@@ERROR
+@@VERSION
+8. Window Functions
+OVER()
+PARTITION BY
+ORDER BY (inside OVER)
+ROW_NUMBER()
+RANK()
+DENSE_RANK()
+NTILE()
+LAG()
+LEAD()
+FIRST_VALUE()
+LAST_VALUE()
+CUME_DIST()
+PERCENT_RANK()
+9. Ranking Queries
+Top N Records
+Top N Per Group
+Nth Highest Salary
+Second Highest Salary
+Duplicate Detection
+Pagination using ROW_NUMBER()
+10. Subqueries
+Single Row Subquery
+Multiple Row Subquery
+Correlated Subquery
+Nested Subquery
+EXISTS
+NOT EXISTS
+11. Common Table Expressions (CTE)
+CTE
+Recursive CTE
+Multiple CTEs
+12. Temporary Objects
+Local Temporary Table (#)
+Global Temporary Table (##)
+Table Variable
+Memory-Optimized Table Variable
+13. Views
+Simple View
+Complex View
+Indexed View
+Updatable View
+14. Stored Procedures
+Create Procedure
+Alter Procedure
+Drop Procedure
+Parameters
+Output Parameters
+Return Values
+Dynamic SQL
+EXEC
+sp_executesql
+15. User Defined Functions (UDF)
+Scalar Function
+Inline Table-Valued Function
+Multi-Statement Table-Valued Function
+16. Triggers
+AFTER Trigger
+INSTEAD OF Trigger
+DML Trigger
+DDL Trigger
+inserted Table
+deleted Table
+17. Transactions
+BEGIN TRANSACTION
+COMMIT
+ROLLBACK
+SAVE TRANSACTION
+Nested Transactions
+TRY...CATCH
+XACT_STATE()
+18. ACID Properties
+Atomicity
+Consistency
+Isolation
+Durability
+19. Isolation Levels
+Read Uncommitted
+Read Committed
+Repeatable Read
+Snapshot
+Serializable
+20. Indexes
+Clustered Index
+Non-Clustered Index
+Composite Index
+Unique Index
+Filtered Index
+Covering Index
+Included Columns
+Columnstore Index
+XML Index
+Full Text Index
+21. Performance Tuning
+Execution Plan
+Actual vs Estimated Execution Plan
+Statistics
+Parameter Sniffing
+SARGable Queries
+Query Optimization
+Missing Indexes
+Blocking
+Deadlocks
+Wait Statistics
+TempDB
+Heap Table
+22. Set Operators
+UNION
+UNION ALL
+INTERSECT
+EXCEPT
+23. Pivoting
+PIVOT
+UNPIVOT
+24. XML & JSON
+FOR XML
+OPENXML
+FOR JSON
+OPENJSON
+JSON_VALUE()
+JSON_QUERY()
+JSON_MODIFY()
+25. Data Import & Export
+BULK INSERT
+BCP
+OPENROWSET
+Linked Server
+26. Security
+Login
+User
+Role
+Schema Permissions
+GRANT
+REVOKE
+DENY
+27. Backup & Recovery
+Full Backup
+Differential Backup
+Transaction Log Backup
+Restore
+Recovery Models
+28. SQL Server Agent
+Jobs
+Schedules
+Alerts
+Operators
+29. Database Objects
+Sequences
+Synonyms
+Filegroups
+Partitioning
+30. Advanced SQL
+Dynamic SQL
+MERGE
+CROSS APPLY
+OUTER APPLY
+Recursive Queries
+Hierarchical Data
+Window Aggregates
+Recursive Relationships
+31. Frequently Asked SQL Interview Problems
+Find Duplicate Records
+Delete Duplicate Records
+Second Highest Salary
+Nth Highest Salary
+Highest Salary Per Department
+Running Total
+Cumulative Sum
+Moving Average
+Consecutive Dates
+Gaps and Islands
+Pivot Employee Data
+Remove Duplicates Using CTE
+Pagination
+Latest Record Per Group
+Employees Earning More Than Their Managers
+Find Missing Numbers
+Find Common Records
+Find Unmatched Records
+Generate Calendar Table
+Split Comma-Separated Values
+Dynamic Pivot
+Hierarchical Queries
